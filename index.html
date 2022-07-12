@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+
+    <div class="topJunk">
+        <div class="viewHighScores">
+            <p>View High Scores</p>
+        </div>
+        <div id = "timer">
+            
+        </div>
+    </div>
+    <div class="wrapper">
+<!-- start page -->
+        <div class = "start">
+            <div class="headerQuestions">
+                <h1>Coding Quiz</h1>
+            </div>
+            <div class="description">
+                <p>this is what the game is about</p>
+            </div>
+            <div id="startButton">
+                <p>Start</p>
+            </div>
+        </div>
+
+<!-- question sets -->
+      <div class="question1">
+        <div class="headerQuestions">
+          <h1>question 1</h1>
+        </div>
+        <div class="answers" id="correct1">
+          <p>correct answer</p>
+        </div>
+        <div class="answers incorrect1">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect1">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect1">
+          <p>incorrect answer</p>
+        </div>
+      </div>
+
+      <div class="question2">
+        <div class="headerQuestions">
+          <h1>question 2</h1>
+        </div>
+        <div class="answers" id="correct2">
+          <p>correct answer</p>
+        </div>
+        <div class="answers incorrect2">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect2">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect2">
+          <p>incorrect answer</p>
+        </div>
+      </div>
+
+      <div class="question3">
+        <div class="headerQuestions">
+          <h1>question 3</h1>
+        </div>
+        <div class="answers" id="correct3">
+          <p>correct answer</p>
+        </div>
+        <div class="answers incorrect3">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect3">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect3">
+          <p>incorrect answer</p>
+        </div>
+      </div>
+
+      <div class="question4">
+        <div class="headerQuestions">
+          <h1>question 4</h1>
+        </div>
+        <div class="answers" id="correct4">
+          <p>correct answer</p>
+        </div>
+        <div class="answers incorrect4">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect4">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect4">
+          <p>incorrect answer</p>
+        </div>
+      </div>
+
+      <div class="question5">
+        <div class="headerQuestions">
+          <h1>question 5</h1>
+        </div>
+        <div class="answers" id="correct5">
+          <p>correct answer</p>
+        </div>
+        <div class="answers incorrect5">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect5">
+          <p>incorrect answer</p>
+        </div>
+        <div class="answers incorrect5">
+          <p>incorrect answer</p>
+        </div>
+      </div>
+
+      <!-- game end -->
+
+      <div class="gameOver">
+          <div class = "headerQuestions">
+            <h1>Game Over!</h1>
+          </div>
+          <div id = "finalScore">
+                
+          </div>
+
+         
+            <label>Please enter your first  and last name:</label>
+            <br>
+            <input id="initials" type="text" name="first_name" placeholder="intials" required>
+            
+            <button onclick="addHS()" type="submit">Submit</button>
+       
+
+      </div>
+
+ <!-- high scores -->
+      <div class="highScores">
+          <div class = "headerQuestions">
+              <h1>High Scores</h1>
+          </div>
+          <!-- high scores go here -->
+          <div>
+          <ul id ="HSList">
+                
+          </ul>
+        </div>
+          <div class = "lastButtons">
+          <div onclick="restart()" id = "goBack">
+              <p>Go Back</p>
+          </div>
+          <div class = "clear">
+              <p>Clear High Scores</p>
+          </div>
+            </div>
+      </div>
+      <div class = "wrong">
+          <h2> wrong </h2>
+      </div>
+      <div class = "correct">
+          <h2> correct</h2>
+      </div>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

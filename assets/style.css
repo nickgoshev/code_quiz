@@ -1,0 +1,103 @@
+
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fbfd;
+}
+.topJunk{
+    display:flex;
+}
+
+.viewHighScores{
+    color:palevioletred;
+}
+
+#timer{
+    margin-left: 83%;
+}
+
+.wrapper {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
+    text-align: center;
+}
+.start{
+    display:block;
+}
+
+.question1, .question2, .question3, .question4, .question5, .gameOver, .highScores, .wrong, .correct{
+    display:none;
+} 
+
+#startButton{
+    width: 33%;
+    margin-left: 33%;
+    margin-right:33%;
+    background-color: blueviolet;
+    color:#f9fbfd;
+    border-radius:15px;
+    padding:1px;
+    cursor:pointer;
+}
+
+#submit{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 37.5%;
+    margin-right:37.5%;
+    background-color: blueviolet;
+    color:#f9fbfd;
+    border-radius:15px;
+    padding-top:1px;
+    padding-bottom: 1px;
+    cursor:pointer;
+}
+
+.answers{
+    
+    width:40%; 
+    background-color:blueviolet; 
+    margin:4%;
+    color:#f9fbfd;
+    border-radius: 15px;
+    cursor:pointer;
+    padding:1px;
+    text-align: center;
+  }
+.lastButtons{
+    display:flex;
+}
+  #goBack{
+      width:25%;
+      background-color: blueviolet;
+      color:#f9fbfd;
+      border-radius: 15px;
+      cursor:pointer;
+      padding: 1px;
+      
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+      
+  }
+
+  .clear{
+    width:25%;
+    background-color: blueviolet;
+    color:#f9fbfd;
+    border-radius: 15px;
+    cursor:pointer;
+    padding: 1px;
+    
+    
+    margin-left: 12.5%;
+      margin-right: 12.5%;
+  }
+
+  .wrong, .correct{
+    margin:4%;
+      outline:2px dashed lightslategray;
+      color:lightslategray;
+      padding:1px;
+      border-radius: 15px;
+  }
