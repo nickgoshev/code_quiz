@@ -36,7 +36,7 @@ var secondsLeft = 75;
 timer.textContent= "time: " + secondsLeft;
 var timerInterval;
 function setTime(){
-secondsLeft = 2;
+secondsLeft = 75;
 timerInterval = setInterval(function(){
     secondsLeft--;
     timer.textContent= "time: " + secondsLeft;
